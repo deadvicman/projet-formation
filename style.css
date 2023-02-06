@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    background-image: url('img/dbtb-header-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header,
+nav,
+footer {
+    background-color: #FF9933;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #FF9933;
+    color: #fff;
+}
+
+main {
+    padding: 2em;
+    text-align: left;
+}
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#introduction{
+    background-image: url('img/boule-de-cristal-dbz-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.character-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+.character-description h2,
+h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.character-description h2 {
+    color: blue;
+    margin-top: 0;
+}
+
+.character-description h3 {
+    color: #fc00fc;
+}
+
+.character-description img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.character-description p {
+    display: none;
+    text-align: center;
+    color: #ff0000;
+}
